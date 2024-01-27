@@ -1,10 +1,23 @@
-def calculate_sum(numbers):
-   
-    sum_of_numbers = sum(numbers)
-    return sum_of_numbers
+a=1
+print(a)
 
-numbers_list = [1, 2, 3, 4, 5]
-result = calculate_sum(numbers_list)
-print(f"The sum of numbers {numbers_list} is: {result}")
+a=200
+print(a)
+type(a)
 
+a=225
+print(id(a))
+print(hex(id(a)))
 
+b=278
+print(id(b))
+
+c=278
+a=1
+print(a)
+
+b=278
+print(id(b))
+
+c=278
+print(id(c))
